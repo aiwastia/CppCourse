@@ -1,3 +1,0 @@
-// the configured options and settings for Tutorial
-#define helloworld_VERSIONMAJOR @helloworld_VERSION_MAJOR@
-#define helloworld_VERSION_MINOR @helloworld_VERSION_MINOR@
