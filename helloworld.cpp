@@ -11,7 +11,7 @@ int main(int argc, const char** argv)
 			<< helloworld_VERSION_MINOR << std::endl;
  */
     
-    class rate_color{
+    /*class rate_color{
         char col;
         int rate;
     };
@@ -19,6 +19,13 @@ int main(int argc, const char** argv)
     rainbow=red;
     int cloud=3*rainbow;
     cout << cloud << endl << rainbow << endl;
+     */
+    
+    int A[2][2];
+    
+    A[1][1]=1;
+    cout << A[1][1] << endl;
+    
     
     
 	return 0;
