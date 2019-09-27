@@ -8,7 +8,7 @@ int i,j,k;
 //const int maxpow = 4;
 //const int maxsize = pow(10.,2*maxpow);
 float A[100000000], B[100000000], C[100000000];
-clock_t t1,t2,t3;
+clock_t t1,t2,t3; //way of defining variables for t, also: long long t1,t2,t3 because of huge size
 float n,dt1,dt2,dt1av,dt2av;
 
 int main(){
@@ -35,6 +35,7 @@ int main(){
                 for (j=0; j<n; j++) {
                     for (k=0; k<n; k++) {
                         C[i*int(n)+j] += A[i*int(n)+k]*B[k*int(n)+j];
+                        //C[i][j] += A[i][k] * B[k][j]; //have to declare it with the max depth I'll need
                     }
                 }
             }
